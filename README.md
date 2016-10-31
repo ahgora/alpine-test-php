@@ -9,9 +9,9 @@ This image aims to run PHP5 tests.
 Building the base image
 -----------------------
 
-To create the base image `ahgora/alpine-php5-build`, execute the following command on the tutum-docker-php folder:
+To create the base image `ahgora/alpine-php5-build`, execute the following command on the alpine-php5-build folder:
 
-      docker build -t ahgora/alpine-test-php  .
+      docker build -t <build_name>  .
 
 
 Running your Apache+PHP docker image
