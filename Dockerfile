@@ -12,3 +12,5 @@ RUN wget https://phar.phpunit.de/phpunit-4.8.9.phar && chmod +x phpunit-4.8.9.ph
     rm /var/cache/apk/*
 
 ADD config.php /etc/config_pw2/config.php
+ADD auth.rsa.pub /etc/config_pw2/auth.rsa.pub
+ADD auth.rsa /etc/config_pw2/auth.rsa
