@@ -1,6 +1,6 @@
 FROM alpine:3.4
 
-RUN apk update && apk add --no-cache wget curl make gcc g++ python linux-headers paxctl libgcc libstdc++ gnupg libc6-compat bind-tools apache2=2.4.25-r0 apache2-utils=2.4.25-r0 php5-apache2 php5-gettext php5-cgi php5-gd php5-intl php5-mcrypt patch php5-imap php5-json php5-phar php5-openssl=5.6.30-r0 openssl
+RUN apk update && apk add --no-cache wget curl make gcc g++ python linux-headers paxctl libgcc libstdc++ gnupg libc6-compat bind-tools apache2=2.4.27-r0 apache2-utils=2.4.27-r0 php5-apache2 php5-gettext php5-cgi php5-gd php5-intl php5-mcrypt patch php5-imap php5-json php5-phar php5-openssl=5.6.31-r0 openssl php5-xml
 
 
 RUN wget https://phar.phpunit.de/phpunit-4.8.9.phar && chmod +x phpunit-4.8.9.phar && mv phpunit-4.8.9.phar /usr/local/bin/phpunit &&\
